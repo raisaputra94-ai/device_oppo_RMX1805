@@ -224,3 +224,7 @@ PRODUCT_COPY_FILES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/oppo/RMX1805/RMX1805-vendor.mk)
+
+# BCR
+$(call inherit-product, vendor/bcr/bcr.mk)
+
