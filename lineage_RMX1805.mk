@@ -11,9 +11,9 @@ $(call inherit-product, device/oppo/RMX1805/device.mk)
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-PRODUCT_BRAND := Oppo
+PRODUCT_BRAND := oppo
 PRODUCT_DEVICE := RMX1805
-PRODUCT_MANUFACTURER := Oppo
+PRODUCT_MANUFACTURER := oppo
 PRODUCT_NAME := lineage_RMX1805
 PRODUCT_MODEL := Realme 2
 
