@@ -94,12 +94,12 @@ void property_override(char const prop[], char const value[], bool add = true)
     }
 }
 
-void property_override_dual(char const system_prop[], char const vendor_prop[],
-    char const value[])
-{
-    property_override(system_prop, value);
-    property_override(vendor_prop, value);
-}
+// void property_override_dual(char const system_prop[], char const vendor_prop[],
+//     char const value[])
+// {
+//     property_override(system_prop, value);
+//     property_override(vendor_prop, value);
+// }
 
 void vendor_load_properties()
 {
@@ -113,6 +113,6 @@ void vendor_load_properties()
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
 
     // fingerprint
-    property_override("ro.build.description", "redfin-user 11 RQ3A.21101.001.A1 7641976 release-keys");
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ3A.21101.001.A1/7641976:user/release-keys");
+    // property_override("ro.build.description", "redfin-user 11 RQ3A.21101.001.A1 7641976 release-keys");
+    // property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ3A.21101.001.A1/7641976:user/release-keys");
 }
